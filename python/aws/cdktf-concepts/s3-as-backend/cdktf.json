@@ -3,8 +3,13 @@
   "app": "pipenv run python main.py",
   "projectId": "5741a706-6e4a-4c04-adf2-3f4de394c9cd",
   "sendCrashReports": "true",
-  "terraformProviders": [],
-  "terraformModules": [],
+  "terraformProviders": [
+    "hashicorp/aws@=5.0"
+  ],
+  "terraformModules": [
+    "terraform-aws-modules/dynamodb-table/aws@3.3.0",
+    "terraform-aws-modules/s3-bucket/aws@3.3.0"
+  ],
   "codeMakerOutput": "imports",
   "context": {}
 }
