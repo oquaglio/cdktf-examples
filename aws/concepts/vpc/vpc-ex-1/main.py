@@ -23,6 +23,6 @@ class MyStack(TerraformStack):
 
 
 app = App()
-MyStack(app, "cdktf-python-aws-vpc-basic-example-1")
+MyStack(app, "cdktf-python-aws-vpc-ex-1")
 
 app.synth()
